@@ -32,7 +32,16 @@ This project analyzes the impact of sleep cycles on productivity, stress levels,
 git clone https://github.com/your-username/sleep-cycle-productivity.git
 cd sleep-cycle-productivity
 
-📌 Machine Learning Models
+## 🛠 2. Install dependencies
+bash
+pip install -r requirements.txt
+
+## ▶ 3. Run the analysis
+bash
+python main.py
+
+
+**📌 Machine Learning Models**
 1️⃣ Linear Regression (Predict Productivity Score)
 Input Features: Sleep hours, exercise, caffeine, screen time, work hours.
 Evaluated using Mean Squared Error (MSE) and R² Score.
