@@ -32,3 +32,31 @@ This project analyzes the impact of sleep cycles on productivity, stress levels,
 git clone https://github.com/your-username/sleep-cycle-productivity.git
 cd sleep-cycle-productivity
 
+📌 Machine Learning Models
+1️⃣ Linear Regression (Predict Productivity Score)
+Input Features: Sleep hours, exercise, caffeine, screen time, work hours.
+Evaluated using Mean Squared Error (MSE) and R² Score.
+2️⃣ Logistic Regression (Classify Sleep Quality)
+Converts sleep quality into a binary classification:
+1 (Good Sleep: >6 hours)
+0 (Poor Sleep: ≤6 hours)
+Evaluated using Accuracy Score.
+3️⃣ K-Means Clustering (Sleep Patterns)
+Groups individuals into 3 clusters based on sleep patterns and stress levels.
+Visualized using a scatter plot with centroids.
+📊 Sample Visualizations
+📈 Linear Regression - Predicted vs Actual Productivity Score
+
+🔵 K-Means Clustering - Sleep Hours vs Mood Score
+
+🔧 Tech Stack
+Python 🐍
+Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+Machine Learning: Regression, Classification, Clustering
+📝 Future Improvements
+✅ Explore Deep Learning for more accurate predictions.
+✅ Add more health parameters (e.g., heart rate, diet).
+✅ Improve sleep quality classification with additional features.
+
+🤝 Contributing
+Pull requests are welcome! If you'd like to contribute, please fork the repository and submit a PR.
